@@ -349,8 +349,6 @@ class DataProcessingNew:
         -   End time
         -   Relative timelines
         -   Interpolations
-        TODO: to include find_delay function included in the Matlab implementation
-        :return: data interpolated with uniformed timelines
         """
         print('Interpolation in process...')
         self.timer = time.time()
