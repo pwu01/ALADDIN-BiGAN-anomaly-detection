@@ -2,7 +2,7 @@
 
 Code for paper "[**_Unsupervised Anomaly Detection for Underwater Gliders Using Generative Adversarial Networks_**](https://doi.org/10.1016/j.engappai.2021.104379)". 
 
-<img src=/images/gan_anomaly.png width="500" title="hover text">
+<img src=/images/gan_anomaly.png width="500" title="Anomaly detection using BiGAN for underwater gliders:  (a) training using normal data and (b)testing using unseen deployment data.">
 
 The datasets are mostly collected from [BODC's Glider inventory](https://www.bodc.ac.uk/data/bodc_database/gliders/).
 
