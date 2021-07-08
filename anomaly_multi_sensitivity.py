@@ -340,10 +340,10 @@ def main(vehicle, train):
                 t_patch_2 = tf.convert_to_tensor(x_test_2[cycle])
                 t_patch_3 = tf.convert_to_tensor(x_test_3[cycle])
 
-                r0, s_0_1, s_0_2 = validate(t_patch_0, discriminator, generator, encoder, sensor_list)
-                r1, s_1_1, s_1_2 = validate(t_patch_1, discriminator, generator, encoder, sensor_list)
-                r2, s_2_1, s_2_2 = validate(t_patch_2, discriminator, generator, encoder, sensor_list)
-                r3, s_3_1, s_3_2 = validate(t_patch_3, discriminator, generator, encoder, sensor_list)
+                r0, s_0_1, s_0_2 = validate(t_patch_0, discriminator, generator, encoder, KAPPA)
+                r1, s_1_1, s_1_2 = validate(t_patch_1, discriminator, generator, encoder, KAPPA)
+                r2, s_2_1, s_2_2 = validate(t_patch_2, discriminator, generator, encoder, KAPPA)
+                r3, s_3_1, s_3_2 = validate(t_patch_3, discriminator, generator, encoder, KAPPA)
 
                 with writer.as_default():
                     tf.summary.scalar('Validate_0_sensor_abnormal', r0, step=t_idx)
