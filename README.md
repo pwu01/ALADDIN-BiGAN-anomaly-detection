@@ -12,8 +12,8 @@ Please cite the paper as below in any resulting publications.
   title={Unsupervised Anomaly Detection for Underwater Gliders Using Generative Adversarial Networks},
   author={Wu, P. and Harris, C.A. and Salavasidis, G. and Lorenzo-Lopez, A. and Kamarudzaman, I. and Philips, A.B. and Thomas, G. and Anderlini, E.},
   journal={Engineering Applications of Artificial Intelligence},
-  volume={X},
-  pages={X},
+  volume={104},
+  pages={104379},
   year={2021},
   publisher={Elsevier}
 }
