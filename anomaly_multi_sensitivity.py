@@ -288,4 +288,4 @@ def main(vehicle, train):
 
 if __name__ == "__main__":
     vessel = 'multi_vehicle'
-    main(vessel, train=True)
+    main(vessel, train=False)
